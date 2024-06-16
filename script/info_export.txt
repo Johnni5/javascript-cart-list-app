@@ -1,0 +1,16 @@
+import { add } from './template.js';
+
+
+function userMath(num1, num2) {
+  console.log(num1, num2);
+  console.log(add(num1, num2));
+}
+
+userMath(1, 2);
+
+
+
+export function add(a, b) {
+  console.log(a + b);
+  return a + b;
+}
